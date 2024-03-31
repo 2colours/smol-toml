@@ -2,10 +2,10 @@ name: Quality Check
 on:
   push:
     branches:
-      - main
+      - mistress
   pull_request:
     branches:
-      - main
+      - mistress
 
 jobs:
   test:
